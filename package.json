@@ -1,0 +1,16 @@
+{
+  "name": "hks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "gh-pages": "^3.0.0"
+  },
+  "homepage": "https://woojiggun.github.io/hks/"
+}

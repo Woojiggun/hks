@@ -1,0 +1,207 @@
+@import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
+@import "/css/reset.css";
+/* @import "/css/portfolio.css"; */
+html,
+body{
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center; 
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    margin: 0;
+}
+a{text-decoration: none !important;
+}
+
+ul {
+    list-style: none;
+}
+
+ul, 
+li {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.wrap__container{
+    
+    padding-top: 0px;
+    width: 1000px;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0; 
+    
+}
+.header {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    -webkit-box-pack: start; 
+    -ms-flex-pack: start;
+    align-items: center;
+    width: 1000px;
+    height: 70px;
+    background-color: white;
+    position: fixed;;
+    z-index: 1;
+    
+}
+.header .header__logo img{
+    width: 250px;
+    padding-right: 20px;
+}
+
+.navbar__nav {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    position: relative;
+    justify-content: start;
+    -webkit-box-pack: start; 
+    -ms-flex-pack: start;
+    align-items: flex-end;
+    height: 30px;
+}
+.nav__item .nav__span{
+   
+    color: rgba(0, 0, 0, 0.1);
+    font-size: 15px; 
+   
+}
+   
+.nav__link{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;  
+    font-weight: bold;
+    padding-right: 35px;
+    
+   
+}
+.nav__lang {
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    position: relative;
+    justify-content: start;
+    -webkit-box-pack: start; 
+    -ms-flex-pack: start;
+    align-items: center;
+}
+.header__subbar {
+    height: 55px;
+    
+}
+
+.lang__link{
+    
+    color: rgba(0, 0, 0, 0.6);
+    padding-right: 0;
+    padding-left: 5px;
+    font-size: 13px; 
+    font-weight: bold; 
+}
+.container{
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center; 
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    width: 1000px;
+    height: 750px;
+    margin: 0;
+}
+.container__main{
+    width: 1000px;
+    height: 400px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.container__img img{
+    max-width: 100%
+}
+.container__sub{
+    
+    width: 1000px;
+    height: 250px;
+    padding-bottom: 20px;
+}
+.sub__content {
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    -webkit-box-pack: start; 
+    -ms-flex-pack: start;
+    align-items: center;
+}
+.content{
+    width: 498px;
+    height: 250px;
+    background-color: blanchedalmond;
+}
+
+.footer__list{
+
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    justify-content: start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start; 
+    align-items: start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    
+  
+}
+.footer{
+    height: 40px;
+    
+}
+.footer__logo img{
+ width: 250px;
+ padding-right: 20px;
+}
+.footer__text {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px; 
+}
+
+.footer__text .text--selected{
+    font-weight: bold;
+}
